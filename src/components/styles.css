@@ -1,0 +1,67 @@
+.container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10% 25%;
+  text-align: center;
+  background-color: #2E0039;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+
+.input-select-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.select {
+  width: 100%;
+  margin-right: 0.5rem;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: #2E0039;
+}
+
+.swap-button {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.5rem;
+  padding: 0.3rem;
+  font-size: 1.8rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.input {
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: #2E0039;
+  margin-left: 55px;
+}
+
+.result {
+  margin-top: 0.5rem;
+  align-self: flex-end;
+  text-align: right;
+  font-size: 1.2rem;
+}
