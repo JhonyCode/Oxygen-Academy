@@ -1,10 +1,11 @@
 import "./App.css";
-import ConversionApp from "./components/ConversionApp";
+import ConversionCalculator from "./components/ConversionApp";
+
 
 function App() {
   return (
     <div>
-      <ConversionApp></ConversionApp>
+      <ConversionCalculator></ConversionCalculator>
     </div>
   );
 }
