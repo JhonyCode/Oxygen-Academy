@@ -1,0 +1,14 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+app_conversion_index:
+    path: /conversions
+    controller: App\Controller\ConversionController::index
+    methods: GET
+
+app_conversion_create:
+    path: /conversions
+    controller: App\Controller\ConversionController::create
+    methods: POST
